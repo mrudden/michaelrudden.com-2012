@@ -1,0 +1,22 @@
+/* Mobile Devices */
+@media screen and (max-device-width: 720px){
+	
+	body > header {
+	  min-height: 50%;
+	}
+
+	body > header > h1 {
+	  font-size: 100%;
+	}
+
+	body > nav {
+	   min-height: 35%;
+	}
+
+	body > nav > ul > li > a {
+	   width: auto;
+	   padding: 0px 5px 2px 5px;
+	   font-size: 100%;
+	}
+	
+)
