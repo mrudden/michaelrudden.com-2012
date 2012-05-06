@@ -1,28 +1,29 @@
 @media screen {
 
 	body  {
+	   /*background: #FFFFCC;*/
 	   font-family: sans-serif;
 	}
 
 	body > section {
-	  position: absolute;
-	  top: 48px;
+	   position: absolute;
+	   top: 48px;
 	}
 
 	body > header {
-	  width: 100%;
-	  min-height: 48px;
-	  background: #000000;
-	  overflow: hidden;
-	  position: relative;
+	   width: 100%;
+	   min-height: 48px;
+	   background: #000000;
+	   overflow: hidden;
+	   position: relative;
 	}
 
 	body > header > h1 {
-	  color: #FFFFFF;
-	  font-family: 'Lobster', serif;
-	  font-size: 48px;
-	  text-align: center;
-	  font-weight: normal;
+	   color: #FFFFFF;
+	   font-family: 'Lobster', serif;
+	   font-size: 48px;
+	   text-align: center;
+	   font-weight: normal;
 	}
 	
 	body > header > h1> a {
@@ -37,6 +38,8 @@
 	body > nav {
 	   margin-left: auto;
 	   margin-right: auto;
+	   width: 896px;
+	   background: #FFFFFF;
 	}
 	
 	body > nav > ul {
@@ -71,6 +74,10 @@
 	  margin: auto;
 	  min-height: 560px;
 	  font-size: 16px;
+	}
+	
+	body > article {
+	   background: #FFFFFF;
 	}
 	
 	h2 {
