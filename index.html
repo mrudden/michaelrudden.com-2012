@@ -44,10 +44,10 @@
 
 <nav>
 	<ul>
-		<li><a href="#about">About</a></li>
-		<li><a href="#projects">Projects</a></li>
-		<li><a href="#blog">Blog</a></li>
-		<li><a href="#contact">Contact</a></li>
+		<li><a href="#about" id="about"><p>About</p></a></li>
+		<li><a href="#projects" id="projects"><p>Projects</p></a></li>
+		<li><a href="#blog" id="blog"><p>Blog</p></a></li>
+		<li><a href="#contact" id="contact"><p>Contact</p></a></li>
 	</ul>
 </nav>
 
@@ -103,6 +103,19 @@
 <script src="/home/core/deck.core.js"></script>
 <script src="/home/extensions/hash/deck.hash.js"></script>
 <script src="/home/extensions/navigation/deck.navigation.js"></script>
+<script src="/home/extensions/events/deck.events.js"></script>
+
+<!-- Active slide indicator -->
+<!--
+<script>
+$("li > a").click(function() {
+	$("a > p").removeClass("currentLink");
+	$("a > p").addClass("inactiveLink");
+	$(this).children("p").removeClass("inactiveLink");
+	$(this).children("p").addClass("currentLink");
+});
+</script>
+-->
 
 <!-- Initialize the deck -->
 <script>
