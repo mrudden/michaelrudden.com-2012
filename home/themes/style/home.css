@@ -2,7 +2,7 @@
 
 	body  {
 	   /*background: #FFFFCC;*/
-	   font-family: sans-serif;
+	   font-family: 'Segoe UI', 'Helvetica', sans-serif;
 	}
 
 	body > section {
@@ -112,7 +112,7 @@
 	
 	body > footer > p {
 	   font-size: 14px;
-	   font-family: sans-serif;
+	   font-family: 'Segoe UI', 'Helvetica', sans-serif;
 	   color: #666666;
 	}
 	
