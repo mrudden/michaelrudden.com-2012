@@ -24,24 +24,7 @@ Michael Rudden - 2012
    font-size: 20px;  
 }
 
-.read_more_container {
-	
+.tumblr_caption p {
+   font-family: 'Times New Roman', serif;
+   font-size: 20px; 
 }
-
-.read_more_container a {
-	
-}
-
-.tumblr_quote {	
-
-}
-
-.tumblr_quote p {		
-
-}
-
-.tumblr_source {
-	
-}
-
-
