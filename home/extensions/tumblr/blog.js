@@ -21,7 +21,7 @@ for (var i = 0; i<posts.length; i++) {
     		);
 	} else if (postType == 'photo') {
 		var postDate = post['date'];
-		var photoURLSmall = post['photo-url-250'];
+		var photoURLSmall = post['photo-url-400'];
 		var photoURLLarge = post['photo-url-1280'];
 		var photoCaption = post['photo-caption'];
 		
